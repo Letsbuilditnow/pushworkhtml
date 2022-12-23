@@ -1,0 +1,357 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "roboto", sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+body {
+  background-color: aliceblue;
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+/*header*/
+header {
+  padding-top: 20px;
+  background-color: #121724;
+  color: white;
+}
+header h1,
+header li,
+header button {
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+header ul {
+  margin-left: 40%;
+ max-width: 60%;
+  padding-left: 10%;
+}
+header li {
+  max-width: 12%;
+}
+header h1 {
+  padding: 0%;
+  margin: 0%;
+  margin-left: 20px;
+}
+header input {
+ max-width: fit-content;
+}
+/* main */
+main {
+  background-color: #121724;
+  color: white;
+}
+main section {
+  max-width: 40%;
+  padding: 20px;
+  margin-top: 140px;
+  float: left;
+  /* background-color: antiquewhite; */
+  /* margin-left: 90px; */
+}
+main section h1,
+p {
+  font-weight: 400;
+  max-width: 400px;
+}
+main section p {
+  font-weight: 300;
+}
+main section button,
+main section a {
+  font-weight: 300;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+main section button {
+  color: black;
+}
+main section div {
+  margin-left: 100px;
+}
+.mainsectionimg {
+  max-width: 30%;
+  background-color: white;
+  float: left;
+  color: black;
+  margin: 100px;
+  margin-left: 200px;
+  text-align: center;
+}
+/* section */
+.section1 {
+  max-width: 40%;
+  padding: 100px;
+  float: left;
+  background-color: aliceblue;
+}
+.section1 h1,
+p {
+  max-width: 92%;
+  font-weight: 400;
+}
+.section1p {
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.section1 button {
+  border: none;
+  padding: 20px;
+  background-color: #121724;
+  color: white;
+  border-radius: 4px;
+}
+.section2 {
+  float: left;
+  max-width: 60%;
+  padding-left: 60px;
+  background-color: aliceblue;
+  margin-top: 60px;
+}
+.section2 section {
+  float: left;
+  max-width: 35.4%;
+  background-color: white;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 20px;
+  text-align: center;
+}
+.finalsection {
+  display: inline-block;
+  max-width: 76%;
+  text-align: center;
+  padding-left: 380px;
+  height: 200px;
+}
+.lastfinalsection {
+  background-color: white;
+}
+.lastfinalsection input,
+.lastfinalsection h3 {
+  display: inline-block;
+  max-width: fit-content;
+}
+.lastfinalsection p,
+.lastfinalsection span {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+.finalbutton {
+  font-weight: 300;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  background-color: #121724;
+}
+.finaldiv {
+  /* background-color: rgb(26, 121, 205); */
+  padding-left: 44%;
+  clear: both;
+}.createaccount{
+  height: 200px;
+  padding: 100px;
+  font-weight: 700;
+  max-width: 31%;
+  margin-left: 10px;
+  
+}.createaccount h3{
+  margin-left:20px;
+  font-weight: 300;
+}
+.cards{
+  font-weight: 700;
+  background-color: #121724;
+  color: white;
+  height: 200px;
+  padding: 100px;
+  padding-top:10px;
+  padding-right:60px;
+  
+}
+.cards section{
+  float: left;
+  max-width: 33%;
+  /* text-align: center; */
+  background-color: white;
+  color:#121724;
+  margin: 60px;
+  padding-left:40px;
+  margin-bottom:1px;
+ 
+}
+section .card1,.card2,.card3{
+  /* display: inline-block; */
+  border-radius: 10px;
+  max-width: 300px;
+border-color: bisque;
+padding: 20px;
+margin-top: 20px;
+}
+section .card2{
+  height: 140px;
+  max-width: 320px;
+  text-align: center;
+  margin-top:20px;
+}.card2 h4{
+  padding-top:44px;
+}
+section .card3{
+  height:134px;
+  max-width:320px;
+
+margin-top:20px;
+}.cards2{
+  padding-left:150px
+}
+.review{
+  display: inline-block;
+  max-width: 60%;
+  text-align: center;
+  padding-left: 100px;
+  margin-left: 220px;
+  font-weight: 300;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:20px;
+}
+.review span{
+  display: inline-flex;
+  font-weight:bolder;
+  padding:10px;
+  padding-top: 0px;
+  
+}
+.ordersection{
+  background-color: #121724;
+  color: white;
+  font-weight: 300;
+  height: 160px;
+ /* padding: 100px; */
+ 
+}
+.ordersection>section div{
+  
+  float: left;
+  max-width: 38%;
+  margin-top: 48px;
+  
+  line-height: 30px;
+}
+.ordersection button{
+  border:none;
+  font-weight: 300;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 58px;
+  text-decoration: none;
+  color: #121724;
+}
+.textsection{
+  
+  padding-left: 300px;
+  font-size: 20px;
+}
+
+footer {
+height: 340px;
+background-color:white;
+padding:60px;
+font-size: smaller;
+color:#121724;
+padding-top:20px;
+padding-left: 120px;
+}
+footer section{
+  float: left;
+  max-width: 18.66%;
+  padding: 20px;
+  margin-left: 10px;
+  
+}.footer1 {
+   /* padding:30px; */
+   /* background-color: aliceblue; */
+   line-height: 20px;
+}
+
+.footer1 h3{
+   padding:10px 0px;
+}
+.footer1 li{
+  display: inline-block;
+  padding:10px;
+  padding-left:0px;
+  padding-right: 20px;
+}
+.footer1 input{
+  float: left;
+ margin-top:2px;
+ margin-right:1px;
+ 
+
+}.footer2{
+  max-width: 200px;
+  height:320px;
+}.footer3{
+max-width:170px;
+}.footer33{
+  max-width:200px;
+}.footer3 h3 span{
+  visibility: hidden;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+  /*******************************************/
+
+  @media screen and (max-width: 400px) {
+    header ul,header input {
+      visibility: hidden;
+    }
+    .mainsection{
+      max-width:100%;
+      padding: 0px;
+      margin:0px;
+      padding-left:0px;
+    }
+    .mainsection div{
+      margin-left: 4px;
+    }
+  h1{
+      font-size:medium;
+    }
+  }
